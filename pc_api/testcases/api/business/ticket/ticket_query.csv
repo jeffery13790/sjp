@@ -1,0 +1,10 @@
+store_code,currentPage,pageSize,qp_createTime_ge,qp_createTime_le,qp_createUserId_eq,qp_effectivetimeStart_ge,qp_effectivetimeStart_le,qp_ticketChannel_like,qp_ticketCode_eq,qp_ticketName_eq,qp_ticketStatus_eq,qp_ticketType_eq,sorter
+STORE000086,1,20,2020-09-01 00:00:00,2020-09-02 00:00:00,,2020-09-02 00:00:00,2020-09-27 23:59:59,,TK20200902000002,自动化测试api测试优惠券,0,1,desc
+STORE000086,1,20,,2020-09-02 00:00:00,,2020-09-02 00:00:00,2020-09-27 23:59:59,,TK20200902000002,自动化测试api测试优惠券,1,1,desc
+STORE000086,1,20,,,,2020-09-02 00:00:00,2020-09-27 23:59:59,,TK20200902000002,自动化测试api测试优惠券,2,1,desc
+STORE000086,1,20,,,,2020-09-02 00:00:00,,,TK20200902000002,自动化测试api测试优惠券,3,1,desc
+STORE000086,1,20,,,,,,,,自动化测试api测试优惠券,4,1,desc
+STORE000086,1,20,,,,,,,,,5,1,asc
+STORE000086,1,20,,,,,,,,,6,2,asc
+STORE000086,1,20,,,,,,,,,1,3,asc
+STORE000086,,,,,,,,,,,1,3,asc

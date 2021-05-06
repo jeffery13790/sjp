@@ -1,0 +1,157 @@
+2020-08-18 14:52:14.435 | INFO     | httprunner.runner:test_start:451 - Start to run testcase: 商家中心，商家新增授信操作, TestCase ID: 8cbd732f-2c07-49bf-a013-06938691ce86
+2020-08-18 14:52:14.436 | INFO     | httprunner.runner:__run_step:292 - run step begin: /ops/api/web/getVerificationCode >>>>>>
+2020-08-18 14:52:14.566 | DEBUG    | httprunner.client:request:186 - client IP: 127.0.0.1, Port: 53408
+2020-08-18 14:52:14.566 | DEBUG    | httprunner.client:request:194 - server IP: 127.0.0.1, Port: 8888
+2020-08-18 14:52:14.567 | DEBUG    | httprunner.client:log_print:40 - 
+================== request details ==================
+method   : GET
+url      : https://cs1.jsbooks.com.cn/ops/api/web/getVerificationCode
+headers  : {
+    "User-Agent": "python-requests/2.24.0",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "x-app-id": "",
+    "x-tenant-id": "",
+    "sso_sessionid": "",
+    "Token": "",
+    "HRUN-Request-ID": "HRUN-8cbd732f-2c07-49bf-a013-06938691ce86-534436"
+}
+cookies  : {}
+body     : None
+
+2020-08-18 14:52:14.584 | DEBUG    | httprunner.client:log_print:40 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Date": "Tue, 18 Aug 2020 06:52:14 GMT",
+    "Content-Type": "application/json;charset=UTF-8",
+    "Connection": "keep-alive",
+    "Vary": "Accept-Encoding",
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Allow-Methods": "GET,POST,OPTIONS,OPTION,PATCH,PUT,DELETE",
+    "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+    "Content-Length": "3272"
+}
+cookies  : {}
+encoding : UTF-8
+content_type : application/json;charset=UTF-8
+body     : {
+    "code": "000000",
+    "msg": "Success",
+    "traceId": "ac1400c315977335346713152d0001",
+    "data": {
+        "verifyId": "vf20200818000320",
+        "verifyCodeBase64": "data:image/png;base64,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"
+    }
+}
+
+2020-08-18 14:52:14.585 | INFO     | httprunner.client:request:218 - status_code: 200, response_time(ms): 129.65 ms, response_length: 0 bytes
+2020-08-18 14:52:14.585 | INFO     | httprunner.response:extract:176 - extract mapping: {'verifyId': 'vf20200818000320'}
+2020-08-18 14:52:14.585 | INFO     | httprunner.response:validate:246 - assert status_code equal 200(int)	==> pass
+2020-08-18 14:52:14.585 | INFO     | httprunner.response:validate:246 - assert headers."Content-Type" equal application/json;charset=UTF-8(str)	==> pass
+2020-08-18 14:52:14.586 | INFO     | httprunner.response:validate:246 - assert body.code equal 000000(str)	==> pass
+2020-08-18 14:52:14.586 | INFO     | httprunner.response:validate:246 - assert body.msg equal Success(str)	==> pass
+2020-08-18 14:52:14.586 | INFO     | httprunner.runner:__run_step:304 - run step end: /ops/api/web/getVerificationCode <<<<<<
+
+2020-08-18 14:52:14.586 | INFO     | httprunner.runner:__run_step:292 - run step begin: /ops/api/web/login >>>>>>
+2020-08-18 14:52:14.666 | DEBUG    | httprunner.client:request:186 - client IP: 127.0.0.1, Port: 53408
+2020-08-18 14:52:14.666 | DEBUG    | httprunner.client:request:194 - server IP: 127.0.0.1, Port: 8888
+2020-08-18 14:52:14.667 | DEBUG    | httprunner.client:log_print:40 - 
+================== request details ==================
+method   : POST
+url      : https://cs1.jsbooks.com.cn/ops/api/web/login
+headers  : {
+    "User-Agent": "python-requests/2.24.0",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "x-app-id": "",
+    "x-tenant-id": "",
+    "sso_sessionid": "",
+    "Token": "",
+    "HRUN-Request-ID": "HRUN-8cbd732f-2c07-49bf-a013-06938691ce86-534586",
+    "Content-Length": "114",
+    "Content-Type": "application/json"
+}
+cookies  : {}
+body     : {
+    "userName": "opsAdmin",
+    "password": "200622",
+    "verifyCode": "1234",
+    "verifyId": "vf20200818000320",
+    "regType": 4
+}
+
+2020-08-18 14:52:14.667 | DEBUG    | httprunner.client:log_print:40 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Date": "Tue, 18 Aug 2020 06:52:14 GMT",
+    "Content-Type": "application/json;charset=UTF-8",
+    "Connection": "keep-alive",
+    "Vary": "Accept-Encoding",
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Allow-Methods": "GET,POST,OPTIONS,OPTION,PATCH,PUT,DELETE",
+    "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+    "Content-Length": "1407"
+}
+cookies  : {}
+encoding : UTF-8
+content_type : application/json;charset=UTF-8
+body     : {
+    "code": "000000",
+    "msg": "Success",
+    "traceId": "ac1400c315977335347253153d0001",
+    "data": {
+        "sessionId": "1_1",
+        "token": "eyJ0eXBlIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJzdWIiOiIxIiwidXNlciI6eyJwZXJzb25JZCI6bnVsbCwibmFtZSI6bnVsbCwidXNlckNvZGUiOm51bGwsInBlcnNvbk5hbWUiOm51bGwsImFjY291bnRJZCI6MSwiYWNjb3VudE5hbWUiOiLov5DokKXlubPlj7DnrqHnkIblkZgiLCJhY2NvdW50Q29kZSI6IjEiLCJpbWdVcmwiOm51bGwsInVjSWQiOm51bGwsInVjSWRBcHBseVN0YXR1cyI6bnVsbCwidWNJZFN0YXR1cyI6bnVsbCwicmVzb3VyY2VJZHMiOm51bGwsInVzZXJuYW1lIjoib3BzQWRtaW4iLCJ0ZW5hbnRJZCI6MiwibG9nb2luQ291bnQiOm51bGwsImVtcGxveWVlQ29kZSI6bnVsbCwiZW1wbG95ZWVOYW1lIjoi6L-Q6JCl5bmz5Y-w566h55CG5ZGYIiwiZW1wbG95ZWVJZCI6MX0sImlhdCI6MTU5NzczMzUzNCwiZXhwIjoxNTk5NDg2NTY3fQ.FllXfLzDmAlcUebMgA9Ju0uOujIPnXYVMm6Cc0M9R_mIM_sBWeDHnRsXruWb70bWZ-Fog4oZ2Pgj_O2RHZamsg",
+        "status": 1,
+        "personDetailResDto": {
+            "id": "1",
+            "accountId": "1",
+            "accountName": "\u8fd0\u8425\u5e73\u53f0\u7ba1\u7406\u5458",
+            "regType": 4,
+            "username": "opsAdmin",
+            "rootOrg": {
+                "id": "1",
+                "name": "\u65b0\u534e\u8fd0\u8425\u5e73\u53f0",
+                "status": 1,
+                "remark": "",
+                "person": "",
+                "mobile": "",
+                "iconUrl": "",
+                "createUserName": "operator",
+                "createTime": "2020-04-01T22:16:03.564",
+                "modifyUserName": "operator",
+                "modifyTime": "2020-04-01T22:16:03.564",
+                "children": [],
+                "createUserId": "-1",
+                "modifyUserId": "-1",
+                "tenantId": "2",
+                "orgCode": "1"
+            },
+            "tenantId": "2",
+            "accountCode": "1",
+            "employeeName": "\u8fd0\u8425\u5e73\u53f0\u7ba1\u7406\u5458",
+            "employeeId": "1",
+            "person": {
+                "id": "1",
+                "type": 1,
+                "status": 1,
+                "name": "\u8fd0\u8425\u5e73\u53f0\u7ba1\u7406\u5458",
+                "tenantId": "2"
+            }
+        }
+    }
+}
+
+2020-08-18 14:52:14.667 | INFO     | httprunner.client:request:218 - status_code: 200, response_time(ms): 80.78 ms, response_length: 0 bytes
+2020-08-18 14:52:14.668 | INFO     | httprunner.response:extract:176 - extract mapping: {'token': 'eyJ0eXBlIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJzdWIiOiIxIiwidXNlciI6eyJwZXJzb25JZCI6bnVsbCwibmFtZSI6bnVsbCwidXNlckNvZGUiOm51bGwsInBlcnNvbk5hbWUiOm51bGwsImFjY291bnRJZCI6MSwiYWNjb3VudE5hbWUiOiLov5DokKXlubPlj7DnrqHnkIblkZgiLCJhY2NvdW50Q29kZSI6IjEiLCJpbWdVcmwiOm51bGwsInVjSWQiOm51bGwsInVjSWRBcHBseVN0YXR1cyI6bnVsbCwidWNJZFN0YXR1cyI6bnVsbCwicmVzb3VyY2VJZHMiOm51bGwsInVzZXJuYW1lIjoib3BzQWRtaW4iLCJ0ZW5hbnRJZCI6MiwibG9nb2luQ291bnQiOm51bGwsImVtcGxveWVlQ29kZSI6bnVsbCwiZW1wbG95ZWVOYW1lIjoi6L-Q6JCl5bmz5Y-w566h55CG5ZGYIiwiZW1wbG95ZWVJZCI6MX0sImlhdCI6MTU5NzczMzUzNCwiZXhwIjoxNTk5NDg2NTY3fQ.FllXfLzDmAlcUebMgA9Ju0uOujIPnXYVMm6Cc0M9R_mIM_sBWeDHnRsXruWb70bWZ-Fog4oZ2Pgj_O2RHZamsg', 'sessionId': '1_1', 'x_tenant_id': '2'}
+2020-08-18 14:52:14.668 | INFO     | httprunner.response:validate:246 - assert status_code equal 200(int)	==> pass
+2020-08-18 14:52:14.668 | INFO     | httprunner.response:validate:246 - assert headers."Content-Type" equal application/json;charset=UTF-8(str)	==> pass
+2020-08-18 14:52:14.668 | INFO     | httprunner.response:validate:246 - assert body.code equal 000000(str)	==> pass
+2020-08-18 14:52:14.668 | INFO     | httprunner.response:validate:246 - assert body.msg equal Success(str)	==> pass
+2020-08-18 14:52:14.669 | INFO     | httprunner.runner:__run_step:304 - run step end: /ops/api/web/login <<<<<<
+
+2020-08-18 14:52:14.669 | INFO     | httprunner.runner:test_start:460 - generate testcase log: D:\Code\Pycharm\test_group_uiautocode\customer\logs\8cbd732f-2c07-49bf-a013-06938691ce86.run.log

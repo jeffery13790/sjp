@@ -1,0 +1,4 @@
+currentPage,pageSize,qp_bg_eq,qp_createTime_eq,qp_createUserId_eq,qp_createUserName_eq,qp_detail_eq,qp_failureTime_eq,qp_groupId_eq,qp_labelUrl_eq,qp_modifyTime_eq,qp_modifyUserId_eq,qp_name_eq,qp_modifyUserName_eq,qp_startTime_eq,qp_status_eq,qp_type_eq,qp_weight_eq,sorter
+1,20,1,2020-5-9 20:30,,,,2020-6-9 20:30,,,2020/5/9 20:30,,,,,,,,desc
+1,15,1,2020-5-9 20:30,,,,2020-6-9 20:30,,,2020/5/9 20:30,,,,,,,,asc
+,,,,,,,,,,,,,,,,,,asc

@@ -1,0 +1,4 @@
+store_code,currentPage,pageSize,qp_name_eq,qp_status_eq,sorter
+STORE000086,1,10,中国原创,0,desc
+STORE000086,,,管理学,1,asc
+STORE000086,,,,1,asc

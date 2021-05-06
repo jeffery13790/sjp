@@ -1,0 +1,5 @@
+currentPage,pageSize,qp_barCode_eq,qp_brandId_in,qp_categoryId_in,qp_classId_in,qp_combination_eq,qp_labelIds_like,qp_name_like,qp_ownerId_eq,qp_skuCode_eq,qp_storeCode_eq,skuNameOrCode,sorter
+1,16,9787569924572,1259828930640547841,1259828935963119659,1259828939595386907,true,,无中生有的世界,0,XHSKU111466,0,,desc
+,,9787532778676,,,,,,,,,,,asc
+,,,1259828930640547841,,,,,,,,,,asc
+,,,,1259828935963119659,,false,,,0,,0,,desc

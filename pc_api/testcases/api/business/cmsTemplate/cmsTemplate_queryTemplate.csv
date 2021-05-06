@@ -1,0 +1,4 @@
+store_code,currentPage,pageSize,qp_bg_eq,qp_platform_eq,qp_storeCode_eq,qp_templateName_like,qp_templateType_eq,sorter
+STORE000086,1,10,2,1,STORE000086,预览店铺,0,desc
+STORE000086,1,10,1,2,STORE000086,预览店铺,1,asc
+,1,10,1,1,STORE000086,,0,desc

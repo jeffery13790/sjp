@@ -1,0 +1,8 @@
+# Created by pytest automatically.
+**/.idea
+platform_ui/.pytest_cache
+platform_ui/archived_logs
+platform_ui/latest_logs
+**/__pycache__
+
+*.log
